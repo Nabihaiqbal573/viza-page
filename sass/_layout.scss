@@ -1,0 +1,12 @@
+.grid {
+  display: grid;
+  &-col90 {
+    grid-template: auto / 5fr 90fr 5fr;
+  }
+  &-col80 {
+    grid-template: auto / 10fr 80fr 10fr;
+  }
+}
+.padding-vertical {
+  padding: $vertical-padding;
+}

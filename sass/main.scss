@@ -1,0 +1,91 @@
+@import "./reset";
+@import "./variable";
+@import "./function";
+@import "./mixin";
+@import "./typography";
+@import "./layout";
+@import "./list";
+@import "./media";
+@import "./animation";
+@import "./header";
+@import "./footer";
+ul.listnum {
+    list-style: auto;
+    padding-left: 2rem;
+    li {
+        padding: 1rem 0;
+        border-bottom: 1px solid $secondary-color;
+       & + li {
+            
+    }
+    }
+}
+.contactdetails {
+    li {
+        display: flex;
+  
+    div {
+        min-width: 15rem;
+    }
+}
+}
+.card {
+    padding: 3rem 2rem;
+    border-color: transparent;
+    height: 100%;  h2 {
+        color: $secondary-color;
+        font-weight: 600;   
+    }
+}
+.card1 {
+    background-color: #e9f1c8;
+    
+}
+.card2,.card4,.card5 {
+    border: 1px solid #ddd;
+    
+}
+.card3 {
+   img {
+    width: 100%;
+   }
+}
+.bo {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.box {
+    width: 14rem;
+    height: 14rem;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: $secondary-color;
+    color: #fff;
+    h4 {
+        font-size: 1.8rem;
+    }
+    p {
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width: 600px) {
+    h2 {
+        font-size: 2.3rem;
+        margin-bottom: 2rem;
+    }
+    .boxman {
+        grid-template-columns: 1fr;
+    }
+    ul.list.contactdetails  {
+        li {
+            flex-direction: column;
+            margin-bottom: 1rem;
+
+        }
+    }
+  }
