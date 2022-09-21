@@ -141,7 +141,7 @@ ul.card {
 }
 
 .primary-nav li a {
-    font-family: 'Open Sans', sans-serif !important;
+   
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -290,13 +290,15 @@ ul.card {
 }
 .checkout-app h1{
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 50px;
+    padding-bottom: 10px;
 }
 .checkout-app p {
     max-width: 413px;
     margin: 0 auto;
     line-height: 30px;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 600;
     padding-bottom: 30px;
     font-family: 'Open Sans', sans-serif !important;
 }
@@ -388,8 +390,8 @@ ul.card {
 }
 .consult img {
     height: 311px;
-    width: 85%;
-    margin-left: 5%;
+    width: 95%;
+    margin-left: 2%;
 }
 .consult .col-lg-3 {
     height: 561px;
@@ -475,14 +477,14 @@ ul.card {
     font-weight: 700;
     position: relative;
     display: block;
-    padding: 13px 40px 13px 20px;
+    padding: 20px 40px 13px 20px;
     border: 1px solid #ddd;
     cursor: pointer;
     width: 100%;
     height: 100px;
     padding-bottom: 45px ;
     border-radius: 10px;
-
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 .accordion-tab > .accordion-content{
@@ -490,9 +492,11 @@ ul.card {
     transition: all .40s;
     overflow: hidden;
     color: #000000;
-    text-align: justify; 
+    text-align: center !important; 
+    font-size: 15px;
     font-family: 'Open Sans', sans-serif !important;
-   
+    line-height: 30px;
+
 
 }
 
@@ -607,7 +611,7 @@ ul.card {
  }
  .dev-img{
     width:347px !important; 
-    height:267px !important; 
+    height:275px !important; 
     border-radius: 18px !important;
  }
  .row{
